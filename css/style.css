@@ -164,21 +164,33 @@ hr {
 }
 
 @media (min-width: 800px) {
+
+	div.container {
+		display:flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
 	.header_pub-info {
 		flex-direction: row;
 		justify-content: space-between;
-		align-items: center;
-	}
-
+		align-items: center; }
+	
+	
+	
+	
 	.main-article {
 		width: 60%;
 		border-radius: 0.6rem;
-		margin: 0;
-	}
+		margin-right:  5%; }
+		
+		
+	
 
 	.main-sidebar {
 		width: 40%;
 		border-radius: 0.6rem;
-		margin: 0;
+		margin: 0; }
+		
 	}
-}
+
